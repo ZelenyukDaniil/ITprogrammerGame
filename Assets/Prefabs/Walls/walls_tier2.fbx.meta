@@ -27,6 +27,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Grid
+    second: {fileID: 2100000, guid: f632cfa1004ae6c40b567f29e5c94588, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Wood_windowcase
     second: {fileID: 2100000, guid: 034de562ec5db65429acc9a5865b4591, type: 2}
   materials:
