@@ -1381,3 +1381,4 @@ Received Import Request.
 Start importing Assets/Prefabs/Tables/table_tier5.fbx using Guid(d819516ead784b44c998622fe32b6a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca99b31e5da9adac20d26048e873015') in 0.049921 seconds
   Import took 0.052556 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
