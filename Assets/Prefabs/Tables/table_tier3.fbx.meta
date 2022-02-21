@@ -3,7 +3,12 @@ guid: 74d66ed473079f84baa67dbcd47af476
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MDF Board
+    second: {fileID: 2100000, guid: b12184e4f2cc4f84b90b56216d0c5e84, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
