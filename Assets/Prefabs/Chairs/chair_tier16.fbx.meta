@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2a9d42d45d738a141acfb0edf8036768
+guid: 27ec73dcc5cc09d4c9825857625f1b6c
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,8 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: ChairPlanks_Rough
-    second: {fileID: 2100000, guid: 992ae80817358374eb3c25524b7f4e3f, type: 2}
+      name: LegsMetal
+    second: {fileID: 2100000, guid: 70d9884557921a54a92adc8009a72093, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: bc1477a5cbb5650429d9fe80d1396a4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Seat2
+    second: {fileID: 2100000, guid: 5d16c7a5fd234d44cb18c2ed3c9c6193, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheels
+    second: {fileID: 2100000, guid: 4fe33b4f0175f2742b44ac5cc73e6476, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

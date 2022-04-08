@@ -15,11 +15,11 @@ C:/Projects/ITprogrammerGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61443
+61697
 Successfully changed project path to: C:/Projects/ITprogrammerGame
 C:/Projects/ITprogrammerGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.78 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -30,120 +30,198 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
     Vendor:   
     VRAM:     8044 MB
-    Driver:   30.0.15.1165
+    Driver:   30.0.15.1215
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001181 seconds.
+Registered in 0.001372 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.35 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 30.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.710 seconds
+- Completed reload, in  0.751 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000740 seconds.
+Registered in 0.000761 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 29.96 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.654 seconds
+- Completed reload, in  0.660 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1797 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.7 MB.
 System memory in use after: 84.8 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2244.
-Total: 1.920600 ms (FindLiveObjects: 0.195000 ms CreateObjectMapping: 0.064800 ms MarkObjects: 1.576400 ms  DeleteObjects: 0.083400 ms)
+Total: 1.797500 ms (FindLiveObjects: 0.146800 ms CreateObjectMapping: 0.030900 ms MarkObjects: 1.548000 ms  DeleteObjects: 0.071100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Chairs/chair_tier4.fbx
-  artifactKey: Guid(1f19104290ebe674983a193ab5240e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chairs/chair_tier4.fbx using Guid(1f19104290ebe674983a193ab5240e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fec869a4a8ede88cf12f8b8f6be685') in 0.211585 seconds
-  Import took 0.214271 seconds .
+  path: Assets/Bedside_table.prefab
+  artifactKey: Guid(3c91e94be73f83d4c87c8f5ea760fc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bedside_table.prefab using Guid(3c91e94be73f83d4c87c8f5ea760fc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3837206866964e471be627f5df39a07f') in 0.073767 seconds
+  Import took 0.076258 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000366 seconds.
+  Time since last request: 130.809429 seconds.
   path: Assets/Prefabs/Chairs/chair_tier1.fbx
   artifactKey: Guid(2a9d42d45d738a141acfb0edf8036768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chairs/chair_tier1.fbx using Guid(2a9d42d45d738a141acfb0edf8036768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84969e188264d52894caf21446f4e67d') in 0.066190 seconds
-  Import took 0.068985 seconds .
+Start importing Assets/Prefabs/Chairs/chair_tier1.fbx using Guid(2a9d42d45d738a141acfb0edf8036768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc77c0fa0cc96bd2db40f45a5b284013') in 0.097483 seconds
+  Import took 0.101158 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Prefabs/Chairs/chair_tier2.fbx
-  artifactKey: Guid(fcff7dedcce3db24abc997ea18d8c01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chairs/chair_tier2.fbx using Guid(fcff7dedcce3db24abc997ea18d8c01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8deb8a2bdbe64eebcc67adb49c5f461e') in 0.061675 seconds
-  Import took 0.064745 seconds .
+  Time since last request: 0.000139 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier19.fbx
+  artifactKey: Guid(5093c65983c2a4540a8f0e9ea641e22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier19.fbx using Guid(5093c65983c2a4540a8f0e9ea641e22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702920dadc7cda748e9c5ebf273fe1f7') in 0.098204 seconds
+  Import took 0.100970 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Prefabs/Chairs
-  artifactKey: Guid(5e0ec4eac529a8346a8a7024d1eab3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chairs using Guid(5e0ec4eac529a8346a8a7024d1eab3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859d1dd91218dcddaecab739e2701198') in 0.004088 seconds
-  Import took 0.006623 seconds .
+  Time since last request: 0.000171 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier18.fbx
+  artifactKey: Guid(e87693cfd24ad0143979355ff373ab4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier18.fbx using Guid(e87693cfd24ad0143979355ff373ab4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2d943430d8b87d597614b57f63ee15') in 0.077563 seconds
+  Import took 0.080564 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Prefabs/Chairs/chair_tier3.fbx
-  artifactKey: Guid(324210676265abe4ea27d34e543e82ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chairs/chair_tier3.fbx using Guid(324210676265abe4ea27d34e543e82ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8df2ee7a9c65c89cc9a41b669a9f29a') in 0.075604 seconds
-  Import took 0.078613 seconds .
+  Time since last request: 0.000151 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier17.fbx
+  artifactKey: Guid(5cc4e1d566f45b54dbdcdbd13293bce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier17.fbx using Guid(5cc4e1d566f45b54dbdcdbd13293bce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5afb344f2ee8881b2c8684b44b5779') in 0.068211 seconds
+  Import took 0.070747 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000703 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.577 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1790 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.4 MB.
-System memory in use after: 87.5 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2257.
-Total: 1.822800 ms (FindLiveObjects: 0.387700 ms CreateObjectMapping: 0.091400 ms MarkObjects: 1.325600 ms  DeleteObjects: 0.012400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 665.546105 seconds.
-  path: Assets/Prefabs/Chairs/chair_tier1.fbx
-  artifactKey: Guid(2a9d42d45d738a141acfb0edf8036768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chairs/chair_tier1.fbx using Guid(2a9d42d45d738a141acfb0edf8036768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b0b42c86704011e87248f68779546d') in 0.206611 seconds
-  Import took 0.209315 seconds .
+  Time since last request: 0.000153 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier14.fbx
+  artifactKey: Guid(87dbb388718cc054099f13cfaf14dacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier14.fbx using Guid(87dbb388718cc054099f13cfaf14dacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543acfac5ea59c56c08bb69069043800') in 0.071310 seconds
+  Import took 0.074235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier20.fbx
+  artifactKey: Guid(fad5483c492783e49851b0e126c174dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier20.fbx using Guid(fad5483c492783e49851b0e126c174dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c9a83a1f915ebff3f1f9c863334413') in 0.086763 seconds
+  Import took 0.089449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier8.fbx
+  artifactKey: Guid(bbeaaff19638774438896432afb01faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier8.fbx using Guid(bbeaaff19638774438896432afb01faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57addebdfb29aa75bd124302206c8b29') in 0.029043 seconds
+  Import took 0.031682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier16.fbx
+  artifactKey: Guid(27ec73dcc5cc09d4c9825857625f1b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier16.fbx using Guid(27ec73dcc5cc09d4c9825857625f1b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7b40e2ede137220f2ab4c83f1d3f99') in 0.077104 seconds
+  Import took 0.080566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier15.fbx
+  artifactKey: Guid(c167c5438fb8afd48a2ac8f38ae12a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier15.fbx using Guid(c167c5438fb8afd48a2ac8f38ae12a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1c986d551113ad8ba9e7d3b28f4cee') in 0.081710 seconds
+  Import took 0.084398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier12.fbx
+  artifactKey: Guid(09b3a6a6cbbe6f746a63b540520fc223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier12.fbx using Guid(09b3a6a6cbbe6f746a63b540520fc223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec0f74a0a5841abbcb1144783de01f2') in 0.101166 seconds
+  Import took 0.103810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier10.fbx
+  artifactKey: Guid(361aaf2a972344a48a4ed980a5e109f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier10.fbx using Guid(361aaf2a972344a48a4ed980a5e109f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf43f1e6d6becda83093d0dea551550') in 0.080664 seconds
+  Import took 0.083365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier21.fbx
+  artifactKey: Guid(e0c4fb2ba4d17d44d9b74020cc09e1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier21.fbx using Guid(e0c4fb2ba4d17d44d9b74020cc09e1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99602c0fa78a8dd3988c4b5283e192d') in 0.084388 seconds
+  Import took 0.086999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier13.fbx
+  artifactKey: Guid(3ecaf8372797530409aae3e03063fab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier13.fbx using Guid(3ecaf8372797530409aae3e03063fab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bde6c4e6de0ec3dc8ae2a06f7bc19e4') in 0.117211 seconds
+  Import took 0.119983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier9.fbx
+  artifactKey: Guid(777e0c35434f3924ba000017e84b23ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier9.fbx using Guid(777e0c35434f3924ba000017e84b23ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a55aaba6768a44fdbad34d3fab745e2') in 0.065144 seconds
+  Import took 0.067788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier7.fbx
+  artifactKey: Guid(ec2b777cf1ecf3746bd6f6575e368a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier7.fbx using Guid(ec2b777cf1ecf3746bd6f6575e368a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2492821883b81d850e1fbd34cb65a0c') in 0.079898 seconds
+  Import took 0.082585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier6.fbx
+  artifactKey: Guid(a662f2e57f58da34abe842c83a9f5def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier6.fbx using Guid(a662f2e57f58da34abe842c83a9f5def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0295b6849551b44827cc73c8be2f60') in 0.063346 seconds
+  Import took 0.065887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier11.fbx
+  artifactKey: Guid(12cd52ba1da227f45ac4b2b60e545140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier11.fbx using Guid(12cd52ba1da227f45ac4b2b60e545140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1de7aa18e11b325376c1790c1d98a40') in 0.084911 seconds
+  Import took 0.087415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Prefabs/Chairs/chair_tier5.fbx
+  artifactKey: Guid(4b01321072ffce249b272585cee72aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chairs/chair_tier5.fbx using Guid(4b01321072ffce249b272585cee72aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a06c5bfb1cbf68f2476a667bd6546e2') in 0.095372 seconds
+  Import took 0.098072 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
