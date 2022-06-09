@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6cbc6913eb28e47419a964a4ea01f1c3
+guid: d4c09fc18a0557042abf3d04295eaa38
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -13,7 +13,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: BookCover5
-    second: {fileID: 2100000, guid: 8e2a18c5d5aca4f4bbf8449edeaea647, type: 2}
+    second: {fileID: 2100000, guid: 0414a9958fad0b04da7cad88d7e41483, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

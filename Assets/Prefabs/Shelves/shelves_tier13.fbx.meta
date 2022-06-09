@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 51d5d196c106e494fbc21e6f49a65f20
+guid: 01fbe0066a504d14c8cbf6c160fece19
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -43,7 +43,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Vase1-1
-    second: {fileID: 2100000, guid: dda3daacf527cc949b71c615341d4cd3, type: 2}
+    second: {fileID: 2100000, guid: eeff53d6e87722a42bb0becd936e1733, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

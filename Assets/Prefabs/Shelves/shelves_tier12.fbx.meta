@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7e126cbbf8b953c46bb9162eb73cbedf
+guid: 02ea5febf7b49a3469c0a8daf448bb1b
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -23,7 +23,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Frame2
-    second: {fileID: 2100000, guid: 4212bd2a3d069464c9942004ddebeb57, type: 2}
+    second: {fileID: 2100000, guid: 5819e44b4fb65ab4aaa66ae7cb7e13ed, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
