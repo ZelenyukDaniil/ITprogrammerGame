@@ -15,11 +15,11 @@ C:/Projects/ITprogrammerGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61300
+60555
 Successfully changed project path to: C:/Projects/ITprogrammerGame
 C:/Projects/ITprogrammerGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 29.89 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 31.29 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,11 +35,11 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000886 seconds.
+Registered in 0.000910 seconds.
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 31.72 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -47,19 +47,19 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.675 seconds
+- Completed reload, in  0.681 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000802 seconds.
+Registered in 0.000750 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.76 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 30.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.636 seconds
+- Completed reload, in  0.658 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -71,685 +71,53 @@ System memory in use before: 85.9 MB.
 System memory in use after: 86.0 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2249.
-Total: 1.594600 ms (FindLiveObjects: 0.142200 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.354400 ms  DeleteObjects: 0.064500 ms)
+Total: 1.909500 ms (FindLiveObjects: 0.180500 ms CreateObjectMapping: 0.029300 ms MarkObjects: 1.634700 ms  DeleteObjects: 0.064100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Shelves/shelves_tier9 (3).fbx
-  artifactKey: Guid(860519df8c44cc249bbc550833f1a1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shelves/shelves_tier9 (3).fbx using Guid(860519df8c44cc249bbc550833f1a1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6241e24301343708f58c5e3609e039') in 0.165015 seconds
-  Import took 0.167853 seconds .
+  path: Assets/Prefabs/Cryptofarms/cryptofarm_tier5.fbx
+  artifactKey: Guid(b49049b2ff35dff4abc85dc583e0a59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cryptofarms/cryptofarm_tier5.fbx using Guid(b49049b2ff35dff4abc85dc583e0a59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bc06d9863a96024020c7cdcbb10954') in 0.198410 seconds
+  Import took 0.201217 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.710719 seconds.
-  path: Assets/Prefabs/Shelves/shelves_tier9.fbx
-  artifactKey: Guid(860519df8c44cc249bbc550833f1a1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shelves/shelves_tier9.fbx using Guid(860519df8c44cc249bbc550833f1a1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bcff8abe1bcb8793b0e93b838a414f') in 0.133588 seconds
-  Import took 0.136360 seconds .
+  Time since last request: 0.000212 seconds.
+  path: Assets/Prefabs/Cryptofarms/cryptofarm_tier1.fbx
+  artifactKey: Guid(95d916e32632e364f9a7d3362779d2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cryptofarms/cryptofarm_tier1.fbx using Guid(95d916e32632e364f9a7d3362779d2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66af126470dc07acbc6afa89d95e9358') in 0.011470 seconds
+  Import took 0.014813 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.717962 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves9_Diffuse (2).png
-  artifactKey: Guid(7c715061a900c7a4c805b96918596a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves9_Diffuse (2).png using Guid(7c715061a900c7a4c805b96918596a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a645740665e75c6972b30dcc3306db19') in 0.039861 seconds
-  Import took 0.042592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.387497 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves9_Diffuse.png
-  artifactKey: Guid(7c715061a900c7a4c805b96918596a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves9_Diffuse.png using Guid(7c715061a900c7a4c805b96918596a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df459f62e2a7f8ea66baf1598766174d') in 0.019432 seconds
-  Import took 0.022160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.188595 seconds.
-  path: Assets/Materials/Shelves_mats/PaperLabel.mat
-  artifactKey: Guid(043a0d38ed5d783419492e435357afa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/PaperLabel.mat using Guid(043a0d38ed5d783419492e435357afa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93230c8f11f4888bb2131203b04b3a6f') in 0.013242 seconds
-  Import took 0.016093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves10.mat
-  artifactKey: Guid(6d97f727830609f41ba0679140671bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves10.mat using Guid(6d97f727830609f41ba0679140671bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ae18aa3fccf34fcbb91a98c3d0eafd') in 0.016945 seconds
-  Import took 0.019564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves2.mat
-  artifactKey: Guid(c9f748f3233158e449584930d6ccb350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves2.mat using Guid(c9f748f3233158e449584930d6ccb350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2486fa97537efb045d9f5bb6517182') in 0.017746 seconds
-  Import took 0.020406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves12.mat
-  artifactKey: Guid(50b232efaae760b4fa3f6635e54e9089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves12.mat using Guid(50b232efaae760b4fa3f6635e54e9089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3578203df949103c4de892cfd832f8ef') in 0.018098 seconds
-  Import took 0.020621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves1.mat
-  artifactKey: Guid(64cd9893ac1a5944f8e39c7e811c03e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves1.mat using Guid(64cd9893ac1a5944f8e39c7e811c03e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41c76e6341f63356ce7b56cbd912cdf') in 0.019168 seconds
-  Import took 0.021831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves15.mat
-  artifactKey: Guid(4469afd05f7f1e848af9e034ea362d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves15.mat using Guid(4469afd05f7f1e848af9e034ea362d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2708b898e642e3885b3d8d579dd4634a') in 0.020009 seconds
-  Import took 0.022719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves7.mat
-  artifactKey: Guid(0a3822b7a3e3d4640a72f904f9ccb90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves7.mat using Guid(0a3822b7a3e3d4640a72f904f9ccb90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bf6e46610379e594c0cad5e4222208') in 0.019602 seconds
-  Import took 0.022093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves5.mat
-  artifactKey: Guid(893de7a3a02cf044e80fe09961caa409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves5.mat using Guid(893de7a3a02cf044e80fe09961caa409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276f7fe51456b670c29a8e2da53576d4') in 0.019278 seconds
-  Import took 0.022247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves6.mat
-  artifactKey: Guid(08b5155b625ba344da98d5d7e308359f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves6.mat using Guid(08b5155b625ba344da98d5d7e308359f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bf032bc00c71426e7ac394346abd53') in 0.019211 seconds
-  Import took 0.021895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves11.mat
-  artifactKey: Guid(8bac8c52a12a211449924554225984a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves11.mat using Guid(8bac8c52a12a211449924554225984a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b764f50600e395663e1cfcd68a7d937e') in 0.018147 seconds
-  Import took 0.020751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves14.mat
-  artifactKey: Guid(d395a3506b5d07348b8bef3372b0ffb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves14.mat using Guid(d395a3506b5d07348b8bef3372b0ffb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd97dd70cf1dd404612c330a6b252a8') in 0.020951 seconds
-  Import took 0.023661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves9.mat
-  artifactKey: Guid(f90a2db38f080054fad49012633bb44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves9.mat using Guid(f90a2db38f080054fad49012633bb44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f66abcba8b4c5d27659aea3442c126c') in 0.008633 seconds
-  Import took 0.011225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves13.mat
-  artifactKey: Guid(ae36ea314ba9fc64b9691709fa51383d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves13.mat using Guid(ae36ea314ba9fc64b9691709fa51383d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c300013f3e1ceb13f4445b0395f557') in 0.018584 seconds
-  Import took 0.021246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves3.mat
-  artifactKey: Guid(7e87519273b701b48ac86067ab0e19e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves3.mat using Guid(7e87519273b701b48ac86067ab0e19e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42216d0d388e5b9462e9bb4533f23e5d') in 0.017885 seconds
-  Import took 0.020581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Materials/Shelves_mats/PaperLabel.mat
-  artifactKey: Guid(043a0d38ed5d783419492e435357afa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/PaperLabel.mat using Guid(043a0d38ed5d783419492e435357afa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93230c8f11f4888bb2131203b04b3a6f') in 0.009690 seconds
-  Import took 0.012448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves8.mat
-  artifactKey: Guid(aef6b27b34d04144aa02b305ce624284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves8.mat using Guid(aef6b27b34d04144aa02b305ce624284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8613899d46a7b85a8dff855d0d9aeb54') in 0.017221 seconds
-  Import took 0.019910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves4.mat
-  artifactKey: Guid(62f4403c469aace4db94f1101b0d46c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves4.mat using Guid(62f4403c469aace4db94f1101b0d46c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2a8d627854612348e6e09973cfa754') in 0.016719 seconds
-  Import took 0.019353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 96.559936 seconds.
-  path: Assets/Prefabs/Shelves/shelves_tier9.fbx
-  artifactKey: Guid(860519df8c44cc249bbc550833f1a1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shelves/shelves_tier9.fbx using Guid(860519df8c44cc249bbc550833f1a1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d0fb646d79d11cfc0f141cd50e4e5d') in 0.094423 seconds
-  Import took 0.097792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 809.933826 seconds.
-  path: Assets/Prefabs/Shelves/shelves_tier9.fbx
-  artifactKey: Guid(6cbc6913eb28e47419a964a4ea01f1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shelves/shelves_tier9.fbx using Guid(6cbc6913eb28e47419a964a4ea01f1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b8c04da6886587776afa562748ac3c') in 0.085020 seconds
-  Import took 0.088795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.924138 seconds.
-  path: Assets/Prefabs/Shelves/shelves_tier9 (4).fbx
-  artifactKey: Guid(5a0c2a10952da05438ac348f5859308f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shelves/shelves_tier9 (4).fbx using Guid(5a0c2a10952da05438ac348f5859308f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfe4de9b040b2d73ee6a55c943669ad') in 0.129146 seconds
-  Import took 0.132108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.437362 seconds.
-  path: Assets/Prefabs/Shelves/shelves_tier9 1.fbx
-  artifactKey: Guid(d4c09fc18a0557042abf3d04295eaa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shelves/shelves_tier9 1.fbx using Guid(d4c09fc18a0557042abf3d04295eaa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5c621e6aeca2f1bd8f997effca79b4') in 0.119343 seconds
-  Import took 0.122084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 171.037206 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves9_Diffuse.png
-  artifactKey: Guid(3229ef1102cb58f42971206a0c6f5960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves9_Diffuse.png using Guid(3229ef1102cb58f42971206a0c6f5960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56e598f548e7709316c0666cb5cb314') in 0.016895 seconds
-  Import took 0.019752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.488592 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves9_Diffuse (3).png
-  artifactKey: Guid(df13435062f026f41894f011001ffdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves9_Diffuse (3).png using Guid(df13435062f026f41894f011001ffdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2189b55e4a3cf693a79b0523e5e0a1c1') in 0.030646 seconds
-  Import took 0.033440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.768495 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves9_Diffuse.png
-  artifactKey: Guid(df13435062f026f41894f011001ffdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves9_Diffuse.png using Guid(df13435062f026f41894f011001ffdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59685b71396a7e85077287da4b9e2230') in 0.025403 seconds
-  Import took 0.028472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.502409 seconds.
-  path: Assets/Materials/Floors_mats/Sci_fi_metal.mat
-  artifactKey: Guid(8c42f547ccf266a4780e62f20b395426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Floors_mats/Sci_fi_metal.mat using Guid(8c42f547ccf266a4780e62f20b395426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204b153b5d317568c7ffe977a9abe985') in 0.010429 seconds
-  Import took 0.013189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Materials/Floors_mats/Yellow_Light.mat
-  artifactKey: Guid(8ef5ea7d54497ab469793af9ad8d1fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Floors_mats/Yellow_Light.mat using Guid(8ef5ea7d54497ab469793af9ad8d1fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98480f4d63a915806e8e031a10c1e86') in 0.009017 seconds
-  Import took 0.012091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Materials/Floors_mats/Steel.mat
-  artifactKey: Guid(94163ba3d496c3142a982c6079eb8955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Floors_mats/Steel.mat using Guid(94163ba3d496c3142a982c6079eb8955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717f95e6aaa6805b8aed2ed1810ceefb') in 0.011144 seconds
-  Import took 0.013816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 174.103026 seconds.
-  path: Assets/Prefabs/Shelves/shelves_tier9.fbx
-  artifactKey: Guid(d4c09fc18a0557042abf3d04295eaa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shelves/shelves_tier9.fbx using Guid(d4c09fc18a0557042abf3d04295eaa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c39d64cb5db7a9f2e590d6f2f56a88') in 0.128160 seconds
-  Import took 0.131373 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.357662 seconds.
-  path: Assets/Prefabs/Shelves/shelves_tier9.fbx
-  artifactKey: Guid(d4c09fc18a0557042abf3d04295eaa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shelves/shelves_tier9.fbx using Guid(d4c09fc18a0557042abf3d04295eaa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d78da61172c482d78c065ed63fd4fa') in 0.056208 seconds
-  Import took 0.059005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 499.853888 seconds.
-  path: Assets/Textures/Shelves_texts
-  artifactKey: Guid(376ebef0462912a488457395ff8d9f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts using Guid(376ebef0462912a488457395ff8d9f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87cbd4ec2617bd178c6ab13bc329deb') in 0.005207 seconds
-  Import took 0.009949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1318.300918 seconds.
-  path: Assets/Materials/Tables_mats
-  artifactKey: Guid(847dc4f3e4574ef49bf7bdac7a30a651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Tables_mats using Guid(847dc4f3e4574ef49bf7bdac7a30a651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd7be473cb8cc1a28f59276a370640f') in 0.006721 seconds
-  Import took 0.010949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.341385 seconds.
-  path: Assets/Materials/Shelves_mats
-  artifactKey: Guid(f46abfd8fb42bab42b218f3edd190e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats using Guid(f46abfd8fb42bab42b218f3edd190e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d192364e0adc6d0ff6276c2cdda974f') in 0.005385 seconds
-  Import took 0.008733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 558.911033 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves9.mat
-  artifactKey: Guid(f90a2db38f080054fad49012633bb44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves9.mat using Guid(f90a2db38f080054fad49012633bb44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9377ec016e754a88fdd54f9a93d9b60b') in 0.027293 seconds
-  Import took 0.030658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010674 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves9.mat
-  artifactKey: Guid(f90a2db38f080054fad49012633bb44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves9.mat using Guid(f90a2db38f080054fad49012633bb44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9377ec016e754a88fdd54f9a93d9b60b') in 0.018294 seconds
-  Import took 0.021315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.598251 seconds.
-  path: Assets/Materials/Shelves_mats/BookCover9.mat
-  artifactKey: Guid(504086a440aba6e4c8c14fe41b6be4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/BookCover9.mat using Guid(504086a440aba6e4c8c14fe41b6be4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ca02bf46480acc28e62c9464b96020') in 0.012374 seconds
-  Import took 0.015805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves10.mat
-  artifactKey: Guid(6d97f727830609f41ba0679140671bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves10.mat using Guid(6d97f727830609f41ba0679140671bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1c6fd84dcb0411852bfe92d263c9fe') in 0.012395 seconds
-  Import took 0.015500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves12.mat
-  artifactKey: Guid(50b232efaae760b4fa3f6635e54e9089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves12.mat using Guid(50b232efaae760b4fa3f6635e54e9089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e65f6599db5dd46a14f589d35fb2fb5') in 0.009237 seconds
-  Import took 0.012634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves15.mat
-  artifactKey: Guid(4469afd05f7f1e848af9e034ea362d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves15.mat using Guid(4469afd05f7f1e848af9e034ea362d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17267aa024194e2bbf65a0471f978e59') in 0.012131 seconds
-  Import took 0.015202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves11.mat
-  artifactKey: Guid(8bac8c52a12a211449924554225984a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves11.mat using Guid(8bac8c52a12a211449924554225984a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625df9b4283a5de20389f3ee5998f03a') in 0.010766 seconds
-  Import took 0.013586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves14.mat
-  artifactKey: Guid(d395a3506b5d07348b8bef3372b0ffb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves14.mat using Guid(d395a3506b5d07348b8bef3372b0ffb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79098fb874593ac737a840a91e4f5969') in 0.011476 seconds
-  Import took 0.014104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves13.mat
-  artifactKey: Guid(ae36ea314ba9fc64b9691709fa51383d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves13.mat using Guid(ae36ea314ba9fc64b9691709fa51383d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cd37aa791bf73a3e17ad761c6951a2') in 0.009876 seconds
-  Import took 0.012737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Materials/Shelves_mats/PaperLabel.mat
-  artifactKey: Guid(043a0d38ed5d783419492e435357afa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/PaperLabel.mat using Guid(043a0d38ed5d783419492e435357afa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54180cc01d137782a4273554408b4030') in 0.010971 seconds
-  Import took 0.014639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.818745 seconds.
-  path: Assets/Prefabs/Shelves/shelves_tier10.fbx
-  artifactKey: Guid(cb6ca8512c818904092f2e4940431515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shelves/shelves_tier10.fbx using Guid(cb6ca8512c818904092f2e4940431515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8df98b890510179215140a7891b2e6') in 0.049318 seconds
-  Import took 0.052767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Prefabs/Shelves/shelves_tier13.fbx
-  artifactKey: Guid(01fbe0066a504d14c8cbf6c160fece19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shelves/shelves_tier13.fbx using Guid(01fbe0066a504d14c8cbf6c160fece19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a667787e7bf6dce3090fc574c9537bd') in 0.049784 seconds
-  Import took 0.052675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Prefabs/Shelves/shelves_tier11.fbx
-  artifactKey: Guid(af29953390b2b2c4dbcf6299deb9375e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shelves/shelves_tier11.fbx using Guid(af29953390b2b2c4dbcf6299deb9375e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6304a0c61380786b7fe52b4aef5dd46') in 0.022885 seconds
-  Import took 0.026155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/Shelves/shelves_tier14.fbx
-  artifactKey: Guid(aba9e1afd1843c743b087e88fac947b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shelves/shelves_tier14.fbx using Guid(aba9e1afd1843c743b087e88fac947b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69f1801d1efcafb71c469402bd9e2c3') in 0.073275 seconds
-  Import took 0.076364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Prefabs/Shelves/shelves_tier12.fbx
-  artifactKey: Guid(02ea5febf7b49a3469c0a8daf448bb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shelves/shelves_tier12.fbx using Guid(02ea5febf7b49a3469c0a8daf448bb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f775c942271073d72e298c708e8a4f') in 0.089970 seconds
-  Import took 0.093078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Prefabs/Shelves/shelves_tier15.fbx
-  artifactKey: Guid(801815555157287499b5ded93f5873d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shelves/shelves_tier15.fbx using Guid(801815555157287499b5ded93f5873d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3c2d4cd307346fb2ce5bd4c8a700bb') in 0.096571 seconds
-  Import took 0.099205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 392.117205 seconds.
-  path: Assets/Textures/Shelves_texts/PaperLabel Base Color.png
-  artifactKey: Guid(7d0ee20ce42ca8f46aec2dc6881470fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/PaperLabel Base Color.png using Guid(7d0ee20ce42ca8f46aec2dc6881470fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba385fc34cdcf43379e42776886ee11') in 0.008221 seconds
-  Import took 0.011774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves14_Diffuse.png
-  artifactKey: Guid(b268f1be2a427ff478e430ba5ae4d8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves14_Diffuse.png using Guid(b268f1be2a427ff478e430ba5ae4d8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdebdfcd51eb6959138dd2d467f0928') in 0.007069 seconds
-  Import took 0.010108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Textures/Shelves_texts/PaperLabel Base Color.png
-  artifactKey: Guid(7d0ee20ce42ca8f46aec2dc6881470fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/PaperLabel Base Color.png using Guid(7d0ee20ce42ca8f46aec2dc6881470fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba385fc34cdcf43379e42776886ee11') in 0.007007 seconds
-  Import took 0.009764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves10_Diffuse.png
-  artifactKey: Guid(be4c6ed9c2f78de418fa28922dfa23b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves10_Diffuse.png using Guid(be4c6ed9c2f78de418fa28922dfa23b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fb431d44a4656babc75d6b9ef61315') in 0.011341 seconds
-  Import took 0.014410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves12_Diffuse.png
-  artifactKey: Guid(8c28aaf75dc10e849b2e90ecd40a1525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves12_Diffuse.png using Guid(8c28aaf75dc10e849b2e90ecd40a1525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913579d9fcfeb59f36fc4fa9c9bbb5f8') in 0.008020 seconds
-  Import took 0.011215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000461 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves15_Diffuse.png
-  artifactKey: Guid(bc5fba24a620c2f4a9be2d3049b23f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves15_Diffuse.png using Guid(bc5fba24a620c2f4a9be2d3049b23f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6184a2c7c7b648c29d33ebec8408ccb5') in 0.009199 seconds
-  Import took 0.012243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves11_Diffuse.png
-  artifactKey: Guid(2086598cee74c9c4d9fce3b8734c2847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves11_Diffuse.png using Guid(2086598cee74c9c4d9fce3b8734c2847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4bf92bdba40bcd8dcc4a56f8e8b832') in 0.008818 seconds
-  Import took 0.011529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves13_Diffuse.png
-  artifactKey: Guid(97edccd30af54224092d75a784439340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves13_Diffuse.png using Guid(97edccd30af54224092d75a784439340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20340dda692b7a776c08b0ef35f9512') in 0.008216 seconds
-  Import took 0.011383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.020673 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves9_Diffuse.png
-  artifactKey: Guid(df13435062f026f41894f011001ffdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves9_Diffuse.png using Guid(df13435062f026f41894f011001ffdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f795c244c0882bcff8033630740ea79c') in 0.010026 seconds
-  Import took 0.014420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.223872 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves11_Diffuse (3).png
-  artifactKey: Guid(3fe33cbf56929a14192d3804b7655cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves11_Diffuse (3).png using Guid(3fe33cbf56929a14192d3804b7655cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f58e3ab9ab47d38962fb90dce00dd70') in 0.015040 seconds
-  Import took 0.018602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.508161 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves11_Diffuse.png
-  artifactKey: Guid(3fe33cbf56929a14192d3804b7655cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves11_Diffuse.png using Guid(3fe33cbf56929a14192d3804b7655cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8d87467d43a8493378ec0dad6ee821') in 0.016377 seconds
-  Import took 0.019022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.759897 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves11_Diffuse.png
-  artifactKey: Guid(3fe33cbf56929a14192d3804b7655cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves11_Diffuse.png using Guid(3fe33cbf56929a14192d3804b7655cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbad2a36771c6850361ec998aa71f153') in 0.006569 seconds
-  Import took 0.009612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.009724 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves12_Diffuse (3).png
-  artifactKey: Guid(ac71cc7399723264fab0e360ab81c4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves12_Diffuse (3).png using Guid(ac71cc7399723264fab0e360ab81c4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be56f1de780196d01b76dc2b447dbaaa') in 0.016760 seconds
-  Import took 0.019737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.563274 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves12_Diffuse (3).png
-  artifactKey: Guid(ac71cc7399723264fab0e360ab81c4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves12_Diffuse (3).png using Guid(ac71cc7399723264fab0e360ab81c4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3902b15f563fdec0ca4256f92744ce1') in 0.004500 seconds
-  Import took 0.007554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.357921 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves12_Diffuse.png
-  artifactKey: Guid(ac71cc7399723264fab0e360ab81c4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves12_Diffuse.png using Guid(ac71cc7399723264fab0e360ab81c4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f642baf1578b79246753f3d9eec531') in 0.006207 seconds
-  Import took 0.009128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 236.143362 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves10_Diffuse (3).png
-  artifactKey: Guid(407a1be57e9078c49b82d7f6bf1d3478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves10_Diffuse (3).png using Guid(407a1be57e9078c49b82d7f6bf1d3478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ec9e3513f186098388b7d4c0793087') in 0.021744 seconds
-  Import took 0.024753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002786 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves10_Diffuse (3).png
-  artifactKey: Guid(407a1be57e9078c49b82d7f6bf1d3478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves10_Diffuse (3).png using Guid(407a1be57e9078c49b82d7f6bf1d3478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ec9e3513f186098388b7d4c0793087') in 0.021306 seconds
-  Import took 0.024311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.818869 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves10_Diffuse.png
-  artifactKey: Guid(407a1be57e9078c49b82d7f6bf1d3478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves10_Diffuse.png using Guid(407a1be57e9078c49b82d7f6bf1d3478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deed928bdfeebe8e46e9e2d2c4d4bc43') in 0.016831 seconds
-  Import took 0.019403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.684575 seconds.
-  path: Assets/Textures/Shelves_texts/Shelves10_Diffuse.png
-  artifactKey: Guid(407a1be57e9078c49b82d7f6bf1d3478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Shelves_texts/Shelves10_Diffuse.png using Guid(407a1be57e9078c49b82d7f6bf1d3478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57ce82758287bd375a865fa8b8c80e2') in 0.007161 seconds
-  Import took 0.010022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.850521 seconds.
-  path: Assets/Materials/Tables_mats/Knobs_2.mat
-  artifactKey: Guid(48faa439d2cee5c41977094cb56f3d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Tables_mats/Knobs_2.mat using Guid(48faa439d2cee5c41977094cb56f3d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff38fb1d71bb2c93fa698f43a2427e9') in 0.013443 seconds
-  Import took 0.016276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Materials/Tables_mats/Table_Knobs.mat
-  artifactKey: Guid(cd09e08621cd8f940a8947a55327a27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Tables_mats/Table_Knobs.mat using Guid(cd09e08621cd8f940a8947a55327a27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98eff10698f4ad108335e599fe7ec80f') in 0.012003 seconds
-  Import took 0.014933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Materials/Tables_mats/TablePlanks_Light.mat
-  artifactKey: Guid(a13c75cbc3bb3c14aadd0854113dedd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Tables_mats/TablePlanks_Light.mat using Guid(a13c75cbc3bb3c14aadd0854113dedd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad3840aaa541232ef9dcb0fdf848a65') in 0.019609 seconds
-  Import took 0.022541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Materials/Tables_mats/Knobs_2.mat
-  artifactKey: Guid(48faa439d2cee5c41977094cb56f3d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Tables_mats/Knobs_2.mat using Guid(48faa439d2cee5c41977094cb56f3d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff38fb1d71bb2c93fa698f43a2427e9') in 0.011086 seconds
-  Import took 0.013740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Materials/Tables_mats/Sci-Fi Hull.mat
-  artifactKey: Guid(8bc730efb81daa44cbcb7852ad90b41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Tables_mats/Sci-Fi Hull.mat using Guid(8bc730efb81daa44cbcb7852ad90b41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8ad4c60b878126bd46041685e46b53') in 0.025319 seconds
-  Import took 0.027962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Materials/Tables_mats/Sci-FiPlatings.mat
-  artifactKey: Guid(3a13f7885e950a644a5308775f4bb4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Tables_mats/Sci-FiPlatings.mat using Guid(3a13f7885e950a644a5308775f4bb4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1567c89f11464bb07986766618fb9e67') in 0.027855 seconds
-  Import took 0.030736 seconds .
+  Time since last request: 0.000264 seconds.
+  path: Assets/Prefabs/Cryptofarms
+  artifactKey: Guid(99bd72178405a444696b939af1bf7620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cryptofarms using Guid(99bd72178405a444696b939af1bf7620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ec801f14d90d16a25e9475d93393bc') in 0.007631 seconds
+  Import took 0.010601 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000154 seconds.
-  path: Assets/Materials/Tables_mats/MetallicTable_Plate.mat
-  artifactKey: Guid(62e90b2bfea9129419c75a1409e2657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Tables_mats/MetallicTable_Plate.mat using Guid(62e90b2bfea9129419c75a1409e2657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728f044cbd75a7d342d390590e8e43e7') in 0.012572 seconds
-  Import took 0.015515 seconds .
+  path: Assets/Prefabs/Cryptofarms/cryptofarm_tier3.fbx
+  artifactKey: Guid(fea2c859f16ac204b83c018105a7fdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cryptofarms/cryptofarm_tier3.fbx using Guid(fea2c859f16ac204b83c018105a7fdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4783e56b18da0ed09f861df26c34147') in 0.069197 seconds
+  Import took 0.071868 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Materials/Tables_mats/MetallicTable.mat
-  artifactKey: Guid(f56a2e4a0762f7c4fb834b09d03f211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Tables_mats/MetallicTable.mat using Guid(f56a2e4a0762f7c4fb834b09d03f211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87f2433a503de9e3419fdae72e95e9d') in 0.008740 seconds
-  Import took 0.011494 seconds .
+  Time since last request: 0.000142 seconds.
+  path: Assets/Prefabs/Cryptofarms/cryptofarm_tier2.fbx
+  artifactKey: Guid(e9b9581bc127fb74f812665a70bd9170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cryptofarms/cryptofarm_tier2.fbx using Guid(e9b9581bc127fb74f812665a70bd9170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c1f4140f7b0e3f8e59384e0aea5691') in 0.049167 seconds
+  Import took 0.051833 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Materials/Tables_mats/Sci-FiMetal.mat
-  artifactKey: Guid(384fa5b0578c8ec439b39adc72593320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Tables_mats/Sci-FiMetal.mat using Guid(384fa5b0578c8ec439b39adc72593320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae6004b17addfa1e86a826dbc1d176a') in 0.019881 seconds
-  Import took 0.022784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Materials/Tables_mats/TablePlanks_Rough.mat
-  artifactKey: Guid(6946978c2af94c742bcf8a0a286c3fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Tables_mats/TablePlanks_Rough.mat using Guid(6946978c2af94c742bcf8a0a286c3fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c0de46346475c7cacbdac9b44e44ab') in 0.012265 seconds
-  Import took 0.015293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Materials/Tables_mats/Table_Knobs 1.mat
-  artifactKey: Guid(bf1352d7f71b10c49a33a2f2d06f0a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Tables_mats/Table_Knobs 1.mat using Guid(bf1352d7f71b10c49a33a2f2d06f0a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17724777ff6d21fe83beb17602be1708') in 0.012395 seconds
-  Import took 0.015132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 298.492383 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves10.mat
-  artifactKey: Guid(6d97f727830609f41ba0679140671bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves10.mat using Guid(6d97f727830609f41ba0679140671bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c39e3f16daed88c4898d8fb9efa54ea') in 0.013375 seconds
-  Import took 0.016890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves12.mat
-  artifactKey: Guid(50b232efaae760b4fa3f6635e54e9089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves12.mat using Guid(50b232efaae760b4fa3f6635e54e9089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43821d5968c93ba86d91bc1e34a72c11') in 0.013071 seconds
-  Import took 0.015792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Materials/Shelves_mats/Shelves11.mat
-  artifactKey: Guid(8bac8c52a12a211449924554225984a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shelves_mats/Shelves11.mat using Guid(8bac8c52a12a211449924554225984a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364cbe8cf7f84d05e765b4e9e99df5df') in 0.008023 seconds
-  Import took 0.010759 seconds .
+  Time since last request: 0.000162 seconds.
+  path: Assets/Prefabs/Cryptofarms/cryptofarm_tier4.fbx
+  artifactKey: Guid(101c6ea0c673fab4097e420fc98d2951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cryptofarms/cryptofarm_tier4.fbx using Guid(101c6ea0c673fab4097e420fc98d2951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1eb67667c7ad0dae1c54925dc681673') in 0.089495 seconds
+  Import took 0.092109 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
