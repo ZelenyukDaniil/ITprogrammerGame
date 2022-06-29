@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: a892e924cf65fce4b8292ec94b7f5539
+guid: 8afb858ce90382e4a8306ce9c39412fa
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RouterHull
+    second: {fileID: 2100000, guid: 15dd121030699dd4a8c46fb39bfc66ad, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

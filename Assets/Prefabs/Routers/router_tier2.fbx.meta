@@ -3,7 +3,17 @@ guid: 2fd054b8ee8b59d489ccd24cee14e62f
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Antenna
+    second: {fileID: 2100000, guid: 73b0806e117b19149993daaf2ff819c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RouterHull
+    second: {fileID: 2100000, guid: 15dd121030699dd4a8c46fb39bfc66ad, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

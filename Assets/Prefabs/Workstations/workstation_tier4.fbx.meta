@@ -3,7 +3,27 @@ guid: 36187c909fa416a4f9b84fdad67cbbb7
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Indcators1
+    second: {fileID: 2100000, guid: 2aec99b038b54664d890675b6136aa27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Indicators2
+    second: {fileID: 2100000, guid: 4bcfda39b75d9b54ca1979dbac10252b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MonitorHull
+    second: {fileID: 2100000, guid: 8ea3f8ba121b6d64ab48fbf14a933cdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MonitorHull2
+    second: {fileID: 2100000, guid: 5b4be05a645463f498fcd7c400f918f4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

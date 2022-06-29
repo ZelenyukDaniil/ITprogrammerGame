@@ -3,7 +3,32 @@ guid: c47d415b8c5d5be4a86b7194706ec00a
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buttons1
+    second: {fileID: 2100000, guid: 05e129d75e41fd5478e4eeb3f9221b81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Indicators2
+    second: {fileID: 2100000, guid: 4bcfda39b75d9b54ca1979dbac10252b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WorkstationHull1
+    second: {fileID: 2100000, guid: 8ea3f8ba121b6d64ab48fbf14a933cdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WorkstationHull2
+    second: {fileID: 2100000, guid: 5b4be05a645463f498fcd7c400f918f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WorkstationHull3
+    second: {fileID: 2100000, guid: 98f50cb7851f3cc4ebaf49f2d518bd27, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
