@@ -15,11 +15,11 @@ C:/Projects/ITprogrammerGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55673
+58803
 Successfully changed project path to: C:/Projects/ITprogrammerGame
 C:/Projects/ITprogrammerGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 31.61 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,161 +35,102 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001171 seconds.
+Registered in 0.000938 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.28 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 31.00 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.866 seconds
+- Completed reload, in  0.826 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000803 seconds.
+Registered in 0.000692 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.23 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.742 seconds
+- Completed reload, in  0.649 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1797 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.1 MB.
 System memory in use after: 87.2 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2257.
-Total: 1.563500 ms (FindLiveObjects: 0.126600 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.328200 ms  DeleteObjects: 0.074300 ms)
+Total: 1.569600 ms (FindLiveObjects: 0.158500 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.300600 ms  DeleteObjects: 0.077200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Keyboards&Mouses/Keyboard&Mouse_tier9.fbx
-  artifactKey: Guid(d6cd214c63567a4418b3666c8abea092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Keyboards&Mouses/Keyboard&Mouse_tier9.fbx using Guid(d6cd214c63567a4418b3666c8abea092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff97c6333d348120f4a71e87dd323977') in 0.143254 seconds
-  Import took 0.146009 seconds .
+  path: Assets/Animation/UI/icon_message.controller
+  artifactKey: Guid(536c47d6bcb8f0541aeb778886befdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/UI/icon_message.controller using Guid(536c47d6bcb8f0541aeb778886befdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ce45ec1c6d962873bb4315c46c66e8') in 0.025072 seconds
+  Import took 0.027768 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.3 MB.
+System memory in use after: 51.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2257.
+Total: 1.709700 ms (FindLiveObjects: 0.147700 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.517200 ms  DeleteObjects: 0.010800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Prefabs/Keyboards&Mouses/Keyboard&Mouse_tier7.fbx
-  artifactKey: Guid(8105197fdfdc7d14786340b624ad3f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Keyboards&Mouses/Keyboard&Mouse_tier7.fbx using Guid(8105197fdfdc7d14786340b624ad3f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95eb5d917b504974b1c885c2d26c7d9') in 0.041886 seconds
-  Import took 0.044466 seconds .
+  Time since last request: 244.997636 seconds.
+  path: Assets/Animation/UI/icon_message.controller
+  artifactKey: Guid(536c47d6bcb8f0541aeb778886befdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/UI/icon_message.controller using Guid(536c47d6bcb8f0541aeb778886befdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b145e56307defc5eb2ec199939723f6f') in 0.006697 seconds
+  Import took 0.009701 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Prefabs/Keyboards&Mouses/Keyboard&Mouse_tier10.fbx
-  artifactKey: Guid(0e1a9c60983041a448cd6d271f91522a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Keyboards&Mouses/Keyboard&Mouse_tier10.fbx using Guid(0e1a9c60983041a448cd6d271f91522a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92895468a3e1d16a704935016963938c') in 0.052485 seconds
-  Import took 0.055232 seconds .
+  Time since last request: 0.002218 seconds.
+  path: Assets/Animation/UI/message_icon.anim
+  artifactKey: Guid(3b2125742399a5e4e8527a3ab9b9ce7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/UI/message_icon.anim using Guid(3b2125742399a5e4e8527a3ab9b9ce7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce02f0b8716ba87ac30e5f4df1ca9ef4') in 0.007398 seconds
+  Import took 0.010538 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/Keyboards&Mouses/Keyboard&Mouse_tier8.fbx
-  artifactKey: Guid(4f489baa2eca26e4ea9d6987d5e2f25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Keyboards&Mouses/Keyboard&Mouse_tier8.fbx using Guid(4f489baa2eca26e4ea9d6987d5e2f25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09a34b668303ba85083dc5799aecb46') in 0.053875 seconds
-  Import took 0.056513 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1790 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.9 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Prefabs/Keyboards&Mouses/Keyboard&Mouse_tier6.fbx
-  artifactKey: Guid(10b01919b2791344a8b7569dd926c212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Keyboards&Mouses/Keyboard&Mouse_tier6.fbx using Guid(10b01919b2791344a8b7569dd926c212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80ec0bfcf596fe1419b9f86a0e523e8') in 0.039747 seconds
-  Import took 0.043053 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 2.338200 ms (FindLiveObjects: 0.323100 ms CreateObjectMapping: 0.049800 ms MarkObjects: 1.949200 ms  DeleteObjects: 0.015300 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 80.248232 seconds.
-  path: Assets/Prefabs/Workstations/workstation_tier6.fbx
-  artifactKey: Guid(082ada23a45904046a70727edf844193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Workstations/workstation_tier6.fbx using Guid(082ada23a45904046a70727edf844193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec4c2cf967a9012f1ca6572f77e290d') in 0.032765 seconds
-  Import took 0.036109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Prefabs/Workstations/workstation_tier7.fbx
-  artifactKey: Guid(61f0a63eed5b8b745a1b0718308803bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Workstations/workstation_tier7.fbx using Guid(61f0a63eed5b8b745a1b0718308803bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bceaea4fe4788453acde40e524df9f80') in 0.114845 seconds
-  Import took 0.117607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Prefabs/Workstations/workstation_tier9.fbx
-  artifactKey: Guid(27993da1bea310648b0563cccba3e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Workstations/workstation_tier9.fbx using Guid(27993da1bea310648b0563cccba3e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156ff29a7622866e8135d4fc16efdf41') in 0.054269 seconds
-  Import took 0.056957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Prefabs/Workstations/workstation_tier8.fbx
-  artifactKey: Guid(00ac7d266908a2a4dac721d1166847cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Workstations/workstation_tier8.fbx using Guid(00ac7d266908a2a4dac721d1166847cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92044aaeac1af73d342ffe681f5ea876') in 0.105920 seconds
-  Import took 0.108384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Prefabs/Workstations/workstation_tier10.fbx
-  artifactKey: Guid(ecf1a5b1db4d22b4bb95204032a372d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Workstations/workstation_tier10.fbx using Guid(ecf1a5b1db4d22b4bb95204032a372d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7838a6cca9280c9576fa75a57cfdcc2a') in 0.047269 seconds
-  Import took 0.049855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.354406 seconds.
-  path: Assets/Prefabs/Trashcans/trashcan_tier6.fbx
-  artifactKey: Guid(ede11b33de910824582768939454a46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Trashcans/trashcan_tier6.fbx using Guid(ede11b33de910824582768939454a46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac9b80c9eafb6c7fe2c8c15580598f9') in 0.013547 seconds
-  Import took 0.017022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Prefabs/Trashcans/trashcan_tier9.fbx
-  artifactKey: Guid(4b691a5c1778c044b8d17ecbca912e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Trashcans/trashcan_tier9.fbx using Guid(4b691a5c1778c044b8d17ecbca912e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791afe493234f07eb16c13c3f1059371') in 0.013222 seconds
-  Import took 0.015878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Prefabs/Trashcans/trashcan_tier10.fbx
-  artifactKey: Guid(ba7b632835664f2489ad37f130831808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Trashcans/trashcan_tier10.fbx using Guid(ba7b632835664f2489ad37f130831808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c7df7e68143da6e0c537a82684293d') in 0.029565 seconds
-  Import took 0.032319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Prefabs/Trashcans/trashcan_tier7.fbx
-  artifactKey: Guid(b3f3827a595c09e4381b6db20c5c926f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Trashcans/trashcan_tier7.fbx using Guid(b3f3827a595c09e4381b6db20c5c926f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd654eba54d00acbb546e9d5445d6c1') in 0.023645 seconds
-  Import took 0.027059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Prefabs/Trashcans/trashcan_tier8.fbx
-  artifactKey: Guid(12636a368b38039459a47a29515671d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Trashcans/trashcan_tier8.fbx using Guid(12636a368b38039459a47a29515671d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2731334348ad15d41c36aa444afcbf93') in 0.016628 seconds
-  Import took 0.019610 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
